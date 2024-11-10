@@ -1,0 +1,169 @@
+body {
+    font-family: sans-serif;
+    background-color: orange;
+    transition: background-color 0.3s ease-in-out; /* Плавна зміна фону */
+}
+
+.logo{
+    text-align: center;
+    font-size: 50px;
+
+}
+
+
+.logo:hover {
+    color: #ff5722; /* Ефект при наведенні */
+}
+
+header {
+    justify-content: space-around; /* Вирівнювання елементів по краях і по центру */
+    padding: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    position: relative;
+    align-items: center; /* Центрування елементів по вертикалі */
+}
+
+.button {
+    background-color: #20c0ff;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: #007acc; /* Ефект при наведенні */
+    transform: scale(1.1); /* Збільшення при наведенні */
+}
+
+nav {
+    border-top: 10px double white;
+    border-bottom: 10px double white;
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    margin: 7px;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    background-color: #ff5722;
+    border-radius: 30px;
+    box-shadow: 5px 2px 10px rgba(255, 0, 0, 0.5);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #ff784e; /* Зміна кольору при наведенні */
+    transform: scale(1.1); /* Збільшення при наведенні */
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    margin: 0 0 50px 0;
+    background-color: red;
+    border-bottom: 5px solid white;
+    border-radius: 30px;
+    box-shadow: 10px 0px 10px 5px rgba(255, 0, 0, 0.5);
+}
+
+article {
+    background-color: orange;
+    padding: 20px;
+    width: 400px;
+    margin: 30px;
+    border-top: 5px solid white;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+article:hover {
+    transform: translateY(-10px); /* Підняття при наведенні */
+}
+
+.article-but {
+    background-color: red;
+    color: wheat;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px;
+    border-radius: 50px;
+    box-shadow: 5px 2px 6px rgba(255, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.but {
+    background-color: red;
+    color: wheat;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 11px;
+    box-shadow: 5px 2px 6px rgba(255, 0, 0, 0.5);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.but:hover {
+    transform: scale(1.05); /* Збільшення при наведенні */
+}
+
+.principles {
+    border-top: 5px solid navy;
+    border-bottom: 5px solid navy;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+.beautiful-text, .text, .beautiful {
+    font-family: 'Georgia', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+    background-color: darkkhaki;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.beautiful-text:hover, .text:hover, .beautiful:hover {
+    background-color: #d2b48c; /* Зміна фону при наведенні */
+}
+
+footer {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    margin-right: 20px;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #007acc; /* Зміна кольору при наведенні */
+}
+
+footer p {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+
